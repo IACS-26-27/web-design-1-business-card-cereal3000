@@ -28,3 +28,12 @@ h6 {
   color: red;
   margin-left: 1.5in;
 }
+
+body {
+  background-color: black;
+}
+
+.card {
+  border-color: rgb(0, 255, 0);
+  color: rgb(0, 255, 0)
+}
