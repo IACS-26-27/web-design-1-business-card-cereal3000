@@ -25,8 +25,8 @@ h6 {
  * (no flexbox or grid). */
 .card h1 {
   /* Demo style -- remove me and write your own */
-  color: red;
-  margin-left: 1.5in;
+  color: rgb(0, 255, 0);
+  text-align: center;
 }
 
 body {
@@ -36,4 +36,9 @@ body {
 .card {
   border-color: rgb(0, 255, 0);
   color: rgb(0, 255, 0)
+}
+
+p {
+  font-size: 15px;
+  padding-left: 15px;
 }
