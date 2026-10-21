@@ -24,7 +24,30 @@ h6 {
  * Layout with margin, padding, border, width, and height only
  * (no flexbox or grid). */
 .card h1 {
-  /* Demo style -- remove me and write your own */
-  color: red;
-  margin-left: 1.5in;
+  padding-top: 6px;
+  padding-left: 6px;
+  line-height: 30px;
+  color: rgb(0, 255, 0);
+  font-size: 25px;
+  font-family: "Press Start 2P";
+}
+
+body {
+  background-color: black;
+}
+
+.card {
+  border-color: rgb(0, 255, 0);
+  color: rgb(0, 255, 0)
+}
+
+p {
+  font-size: 15px;
+  padding-left: 6px;
+}
+
+.press-start-2p-regular {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
