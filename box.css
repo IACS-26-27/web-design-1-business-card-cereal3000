@@ -54,6 +54,8 @@ p {
 
 img {
   margin: auto;
+  border-color: aqua;
+  border-width: 5px;
   padding-top: 10px;
   width: 25%;
   height: 25%;
