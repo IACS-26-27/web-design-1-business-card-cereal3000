@@ -53,9 +53,9 @@ p {
 }
 
 img {
-  margin: auto;
   border: 5px solid aqua;
-  padding-top: 10px;
-  width: 25%;
-  height: 25%;
+  padding-top: 20px;
+  padding-left: 50px;
+  width: 30%;
+  height: 30%;
 }
