@@ -15,9 +15,9 @@ h6 {
  * card. (An outline takes up no space, so it won't change your layout.)
  * Comment it back out when you are done. */
 
-.card * {
+/*.card * {
   outline: 1px dashed red;
-}
+}*/
 
 /* Your box model card styles go here!
  * Layout with margin, padding, border, width, and height only
