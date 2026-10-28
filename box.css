@@ -70,3 +70,7 @@ img {
   background-color: rgb(0, 30, 0);
   box-shadow: 0 0 30px rgb(89, 247, 89);
 }
+
+.text-thing {
+  color:rgb(0, 255, 0)
+}
