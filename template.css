@@ -20,7 +20,7 @@
   perspective: 1000px;
   cursor: pointer;
   transform-style: preserve-3d;
-  transition: all 0.3s ease;
+  transition: all 10s ease;
 }
 
 .card.landscape {
@@ -45,7 +45,7 @@
 
 /* Flipped state - full rotation */
 .card.flipped {
-  transform: rotateY(180deg);
+  transform: rotateY(180deg) rotateX(360deg);
 }
 
 .card-front,

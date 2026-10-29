@@ -14,17 +14,36 @@ h6 {
 /* WIREFRAME: Uncomment this to see the outline of every box on your
  * card. (An outline takes up no space, so it won't change your layout.)
  * Comment it back out when you are done. */
-/*
 .card * {
   outline: 1px dashed red;
 }
-*/
 
 /* Your flexbox card styles go here! */
-.card-front {
+.title {
+  color: blue;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+}
+
+.boom {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
 }
 
 /* Honors: styles for each card size, for example:
 .square .card-front {
 }
 */
+.square .card-front {
+  text-decoration: solid
+}
+
+.square .card-back {
+  text-decoration: line-through;
+}
